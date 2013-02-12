@@ -3,6 +3,11 @@ xfce4-xfapplet-centos6
 
 Patch of the xfce4-xfapplet-plugin-0.1.0-1.el5.centos package to install on Centos 6.3.
 
+For those who are lazy and trust that I have really built the xfapplet plugin:
+
+    wget --no-check-certificate "https://github.com/carlohamalainen/xfce4-xfapplet-centos6/blob/master/RPMS/x86_64/xfce4-xfapplet-plugin-0.1.0-15.el6.x86_64.rpm?raw=true"
+    sudo yum -y install xfce4-xfapplet-plugin-0.1.0-15.el6.x86_64.rpm
+
 To build the RPM from source:
 
     sudo yum install rpm-build
